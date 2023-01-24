@@ -8,8 +8,11 @@
             body {background-color: #90a4ae;/*背景色を薄い色にする*/}
             .title h2, .title a:link, .title a:visited, .title a:hover, .title a:active {color: black; font-size: 32px; text-align: center;}
             .subtitle {text-align: center;}
-            h4{padding: 0.5em 0.5em;/*文字の上下 左右の余白*/ color: #505050;/*文字色*/ background: #90a4ae;/*背景色*/ 
-            border-left: solid 5px #505050;/*左線*/ border-bottom: solid 3px #505050;/*下線*/}
+            h4{
+                position: relative; padding: 1rem 1.5rem;
+	            border: 1px solid #505050; border-top: 4px solid #505050;
+	            background: linear-gradient(#90a4ae 0%, #90a4ae 100%);
+            }
         </Style>
     </head>
     <body>
@@ -17,7 +20,7 @@
         <div class="subtitle">私が制作したゲームについての詳細です</div><br>
         <div class="main">
             <p>
-                <br><hr color="#505050">
+                <br>
                 <h4 id="Development">開発環境</h4>
                 <img src="Image/developmentICON1bj.jpg" width=480 height=270 alt="developmentImgJpg"><br>
                 ・OS：Windows10Home ノートパソコン<br>
@@ -26,7 +29,7 @@
                 ・使用ソフトウェア：Unity、VisualStudio、Aseprite<br>
                 ・BGM/SE：魔王魂様、OtoLogic様、On-Jin ～音人～様、効果音ラボ様<br>
                 ・フォント：自家製ドットフォントシリーズ<br>
-                <br><hr color="#505050">
+                <br>
                 <h4 id="ProductionGame1">制作ゲーム：<font color="#455a64">GrayBirdsMan</font></h4>
                 <img src="Image/gbm480x270j.jpg" width=480 height=270 alt="GrayBirdsManImgJpg"><br>
                 <br>
